@@ -1,7 +1,7 @@
 ITP 380 - Rhythm Runner
 ===================
 
-Final project for ITP 380 - Video Game Programming
+Final project for ITP 380 - Video Game Programming. We developed this project using Tortoise SVN, so there is no commit history.
 
 ###Team members:
 
