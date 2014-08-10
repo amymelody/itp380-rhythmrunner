@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>pPyramid1</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Josh\ITP380 Final\XNAContent\Miner\Miner.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>0.5 0 0 0 0 1 -2.220446E-16 0 0 1.110223E-16 0.5 0 0 0 -0.1 1</Transform>
+    <Positions>9.272585E-08 -0.353553385 0.005242765 -0.707106769 -0.353553385 -6.181724E-08 -3.090862E-08 -0.353553385 0.707106769 0.707106769 -0.353553385 -3.30872245E-24 0 0.353553385 -3.30872245E-24</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 9 8 7 12 11 10 15 14 13</Indices>
+        <Vertices>
+          <PositionIndices>0 3 2 1 0 1 4 1 2 4 2 3 4 3 0 4</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 -1 6.004988E-08 0 -1 6.004988E-08 0 -1 6.004988E-08 0 -1 6.004988E-08 0.00741406856 -0.00741398055 -0.999945045 0.00741406856 -0.00741398055 -0.999945045 0.00741406856 -0.00741398055 -0.999945045 -0.5773503 0.5773503 0.577350259 -0.5773503 0.5773503 0.577350259 -0.5773503 0.5773503 0.577350259 0.577350259 0.577350259 0.5773503 0.577350259 0.577350259 0.5773503 0.577350259 0.577350259 0.5773503 -0.007413984 -0.007413984 -0.9999451 -0.007413984 -0.007413984 -0.9999451 -0.007413984 -0.007413984 -0.9999451</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.004345043 0.667266846 0.00189279579 0.998007953 0.332633942 0.667266846 0.00189277611 0.336525679 0.6698545 0.667266846 0.6698545 0.336525679 0.339113384 0.667266846 0.617539644 0.00199192762 0.948280752 0.3327331 0.948280752 0.00199192762 0.280968964 0.3327331 0.6117101 0.3327331 0.280968964 0.00199192762 0.6698545 0.998007953 0.6698545 0.667266846 0.339113384 0.667266846</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert1</Name>
+      <Identity>
+        <SourceFilename>C:\Users\Josh\ITP380 Final\XNAContent\Miner\Miner.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\..\XNAContent\Miner\miner.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

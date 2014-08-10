@@ -1,0 +1,19 @@
+#General
+Name: blah
+Artist: derp
+Difficulty: 10
+
+#Info
+BPM: 120
+SongLength: 180
+LeadIn: 3
+BeatsPerMeasure: 4
+AppearanceTime: 2
+
+#GameElements
+1, Good, 10, 5
+1, Bad, 10, 1
+2, Shield, 2
+2.5, Bad, 20, 2
+2.5, Bad, 10, 9
+3.5, DoubleMult, 7

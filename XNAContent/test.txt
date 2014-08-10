@@ -1,0 +1,71 @@
+#General
+Name: Voyager
+Artist: Daft Punk
+Difficulty: 10
+
+#Info
+BPM: 128.2
+SongLength: 224
+LeadIn: 0
+BeatsPerMeasure: 4
+AppearanceTime: 2
+
+#GameElements
+2, Good, 10, 5
+3, Good, 10, 4
+4, Good, 10, 5
+5, Good, 10, 6
+6, Good, 10, 5
+7, Good, 10, 4
+8, Good, 10, 5
+9, Good, 10, 6
+10, Good, 10, 5
+11, Good, 10, 6
+12, Good, 10, 5
+13, Good, 10, 4
+14, Good, 10, 5
+15, Good, 10, 6
+16, Good, 10, 5
+17, Good, 10, 4
+18, Good, 10, 5
+19, Good, 10, 6
+20, Good, 10, 5
+21, Good, 10, 6
+22, Good, 10, 5
+23, Good, 10, 4
+24, Good, 10, 5
+25, Good, 10, 6
+26, Good, 10, 5
+27, Good, 10, 4
+28, Good, 10, 5
+29, Good, 10, 6
+30, Good, 10, 5
+31, Good, 10, 6
+32, Good, 10, 5
+33, Good, 10, 4
+34, Good, 10, 5
+35, Good, 10, 6
+36, Good, 10, 5
+37, Good, 10, 4
+38, Good, 10, 5
+39, Good, 10, 6
+40, Good, 10, 5
+41, Good, 10, 6
+42, Good, 10, 5
+43, Good, 10, 4
+44, Good, 10, 5
+45, Good, 10, 6
+46, Good, 10, 5
+47, Good, 10, 4
+48, Good, 10, 5
+49, Good, 10, 6
+50, Good, 10, 5
+51, Good, 10, 6
+52, Good, 10, 5
+53, Good, 10, 4
+54, Good, 10, 5
+55, Good, 10, 6
+56, Good, 10, 5
+57, Good, 10, 4
+58, Good, 10, 5
+59, Good, 10, 6

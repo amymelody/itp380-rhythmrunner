@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\Quartz.spritefont</Source>
+      <Name>Fonts\Quartz</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Fonts\Quartz.xnb</Output>
+      <Time>2014-03-11T17:13:04.9996697-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\QuartzTitle.spritefont</Source>
+      <Name>Fonts\QuartzTitle</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Fonts\QuartzTitle.xnb</Output>
+      <Time>2014-03-11T17:13:05.0076702-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\QuartzButton.spritefont</Source>
+      <Name>Fonts\QuartzButton</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Fonts\QuartzButton.xnb</Output>
+      <Time>2014-03-11T17:13:05.0366718-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\FixedText.spritefont</Source>
+      <Name>Fonts\FixedText</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Fonts\FixedText.xnb</Output>
+      <Time>2014-03-11T17:13:04.986669-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\FixedTitle.spritefont</Source>
+      <Name>Fonts\FixedTitle</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Fonts\FixedTitle.xnb</Output>
+      <Time>2014-03-11T17:13:05.0186708-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\FixedButton.spritefont</Source>
+      <Name>Fonts\FixedButton</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Fonts\FixedButton.xnb</Output>
+      <Time>2014-03-11T17:13:05.0156706-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\FixedSmall.spritefont</Source>
+      <Name>Fonts\FixedSmall</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Fonts\FixedSmall.xnb</Output>
+      <Time>2014-03-11T17:13:05.00467-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Miner\Miner.fbx</Source>
+      <Name>Miner\Miner</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Miner\Miner.xnb</Output>
+      <Time>2014-03-11T17:13:05.4666964-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Josh\ITP380 Final\obj\x86\Debug\Miner\Miner_0.xml</Key>
+        <Value>2014-03-11T18:26:05.98191-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Miner\miner_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Projectiles\Sphere.fbx</Source>
+      <Name>Projectiles\Sphere</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Projectiles\Sphere.xnb</Output>
+      <Time>2014-03-11T17:13:04.1496211-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Josh\ITP380 Final\obj\x86\Debug\Projectiles\Sphere_0.xml</Key>
+        <Value>2014-03-11T18:26:08.5900592-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Asteroid.fbx</Source>
+      <Name>Asteroid</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Asteroid.xnb</Output>
+      <Time>2014-03-11T17:13:04.9826687-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Josh\ITP380 Final\obj\x86\Debug\Asteroid_0.xml</Key>
+        <Value>2014-03-11T18:26:09.4641092-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Asteroid_tex_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>cone_tower.fbx</Source>
+      <Name>cone_tower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\cone_tower.xnb</Output>
+      <Time>2014-03-11T17:13:04.1396205-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Josh\ITP380 Final\obj\x86\Debug\cone_tower_0.xml</Key>
+        <Value>2014-03-11T18:26:10.3241584-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\cone_tower_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>light_tower.fbx</Source>
+      <Name>light_tower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\light_tower.xnb</Output>
+      <Time>2014-03-11T17:13:04.951667-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Josh\ITP380 Final\obj\x86\Debug\light_tower_0.xml</Key>
+        <Value>2014-03-11T18:26:11.6692353-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\light_tower_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>slow_tower.fbx</Source>
+      <Name>slow_tower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\slow_tower.xnb</Output>
+      <Time>2014-03-11T17:13:04.1446208-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Josh\ITP380 Final\obj\x86\Debug\slow_tower_0.xml</Key>
+        <Value>2014-03-11T18:26:12.782299-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\slow_tower_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Miner\Miner_Snared.png</Source>
+      <Name>Miner\Miner_Snared</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Miner\Miner_Snared.xnb</Output>
+      <Time>2014-03-11T17:13:05.4706967-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Miner\Miner_Default.png</Source>
+      <Name>Miner\Miner_Default</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Miner\Miner_Default.xnb</Output>
+      <Time>2014-03-11T17:13:05.4086931-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\118655__pyzaist__yay.wav</Source>
+      <Name>Sounds\Victory</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Victory.xnb</Output>
+      <Time>2014-03-11T17:13:06.2097389-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\142608__autistic-lucario__error.wav</Source>
+      <Name>Sounds\Error</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Error.xnb</Output>
+      <Time>2014-03-11T17:13:06.2187394-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\146725__fins__laser.wav</Source>
+      <Name>Sounds\Shoot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Shoot.xnb</Output>
+      <Time>2014-03-11T17:13:06.1797372-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\171527__fins__menu-click.wav</Source>
+      <Name>Sounds\MenuClick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\MenuClick.xnb</Output>
+      <Time>2014-03-11T17:13:06.1637363-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\176226__markgia__clanks.wav</Source>
+      <Name>Sounds\Build</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Build.xnb</Output>
+      <Time>2014-03-11T17:13:06.2027385-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\177215__ecfike__ice-crack-7.wav</Source>
+      <Name>Sounds\Snared</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Snared.xnb</Output>
+      <Time>2014-03-11T17:13:06.2597418-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\178876__rocotilos__game-over-evil.wav</Source>
+      <Name>Sounds\GameOver</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\GameOver.xnb</Output>
+      <Time>2014-03-11T17:13:06.2517413-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\33752__jobro__3-alarm-short-e.wav</Source>
+      <Name>Sounds\Alarm</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Alarm.xnb</Output>
+      <Time>2014-03-11T17:13:06.1497355-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Miner\Miner.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Josh\ITP380 Final\obj\x86\Debug\Miner\Miner_0.xml</Output>
+      <Time>2014-03-11T17:13:05.4666964-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Miner\miner.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Miner\miner_0.xnb</Output>
+      <Time>2014-03-11T17:13:05.5046986-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Projectiles\Sphere.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Josh\ITP380 Final\obj\x86\Debug\Projectiles\Sphere_0.xml</Output>
+      <Time>2014-03-11T17:13:04.1496211-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Josh\ITP380 Final\obj\x86\Debug\Asteroid_0.xml</Output>
+      <Time>2014-03-11T17:13:04.9826687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Asteroid_tex.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Asteroid_tex_0.xnb</Output>
+      <Time>2014-03-11T17:13:06.3197452-07:00</Time>
+    </Item>
+    <Item>
+      <Source>cone_tower.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Josh\ITP380 Final\obj\x86\Debug\cone_tower_0.xml</Output>
+      <Time>2014-03-11T17:13:04.1396205-07:00</Time>
+    </Item>
+    <Item>
+      <Source>cone_tower.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\cone_tower_0.xnb</Output>
+      <Time>2014-03-11T17:13:04.9556672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>light_tower.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Josh\ITP380 Final\obj\x86\Debug\light_tower_0.xml</Output>
+      <Time>2014-03-11T17:13:04.951667-07:00</Time>
+    </Item>
+    <Item>
+      <Source>light_tower.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\light_tower_0.xnb</Output>
+      <Time>2014-03-11T17:13:06.140735-07:00</Time>
+    </Item>
+    <Item>
+      <Source>slow_tower.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Josh\ITP380 Final\obj\x86\Debug\slow_tower_0.xml</Output>
+      <Time>2014-03-11T17:13:04.1446208-07:00</Time>
+    </Item>
+    <Item>
+      <Source>slow_tower.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\slow_tower_0.xnb</Output>
+      <Time>2014-03-11T17:13:04.9786685-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpaceAge.bmp</Source>
+      <Name>SpaceAge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\SpaceAge.xnb</Output>
+      <Time>2014-04-10T17:26:37.8865407-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SquaredDisplay.bmp</Source>
+      <Name>SquaredDisplay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\SquaredDisplay.xnb</Output>
+      <Time>2014-04-10T17:26:37.8965412-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Songs\Spectrum.mp3</Source>
+      <Name>Sounds\Songs\Spectrum</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Songs\Spectrum.xnb</Output>
+      <Extra>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Songs\Spectrum.wma</Extra>
+      <Time>2014-04-15T12:04:49.5701781-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Songs\Voyager.mp3</Source>
+      <Name>Sounds\Songs\Voyager</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Songs\Voyager.xnb</Output>
+      <Extra>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\Sounds\Songs\Voyager.wma</Extra>
+      <Time>2014-04-15T18:34:55.8373487-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpaceShip.fbx</Source>
+      <Name>SpaceShip</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\SpaceShip.xnb</Output>
+      <Time>2014-04-27T16:02:05.7161518-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Josh\ITP380 Final\obj\x86\Debug\SpaceShip_0.xml</Key>
+        <Value>2014-04-27T16:04:01.4583492-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>SpaceShip.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Josh\ITP380 Final\obj\x86\Debug\SpaceShip_0.xml</Output>
+      <Time>2014-04-27T16:02:05.7161518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>imagine.bmp</Source>
+      <Name>imagine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\imagine.xnb</Output>
+      <Time>2014-05-07T19:04:46.0486302-07:00</Time>
+    </Item>
+    <Item>
+      <Source>imagine_bold.bmp</Source>
+      <Name>imagine_bold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\imagine_bold.xnb</Output>
+      <Time>2014-05-07T19:04:46.0586302-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SquaredDisplay_bold.bmp</Source>
+      <Name>SquaredDisplay_bold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>FontTextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\SquaredDisplay_bold.xnb</Output>
+      <Time>2014-05-07T19:04:46.0586302-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{2376C576-0C95-4F1D-A738-C6E6F960C629}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Josh\ITP380 Final\XNAContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Josh\ITP380 Final\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Josh\ITP380 Final\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Josh\ITP380 Final\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-01-17T09:54:55.2464418-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
